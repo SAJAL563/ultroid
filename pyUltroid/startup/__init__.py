@@ -26,7 +26,7 @@ def where_hosted():
     if os.getenv("OKTETO_TOKEN"):
         return "okteto"
     if os.getenv("KUBERNETES_PORT"):
-        return "qovery | kubernetes"
+        return "𝚂𝙰𝙹𝙰𝙻 𝙺𝙰 𝚅𝙿𝚂"
     if os.getenv("RUNNER_USER") or os.getenv("HOSTNAME"):
         return "github actions"
     if os.getenv("ANDROID_ROOT"):
